@@ -89,10 +89,10 @@ div.card-4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 100%;
   }
   div.card-responsive {
-    width: calc(90% / 3);
+    width: calc(92% / 3);
   }
   p.header-text {
     font-size: 14px;
@@ -106,6 +106,9 @@ div.card-4 {
 }
 /************************Start media 1024*******************************/
 @media screen and (min-width: 1024px) {
+  section.continar-card {
+    width: 90%;
+  }
   p.header-text {
     width: 51%;
   }
