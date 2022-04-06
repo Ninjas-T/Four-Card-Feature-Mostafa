@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #fafafa;
+}
+section.continar-all-page {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+/******************Start hrader*************************************/
+h1.head-1 {
+  font-weight: 300;
+  font-size: 25px;
+  color: #99999b;
+  text-align: center;
+}
+h1.head-2 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #383a47;
+  margin-top: 7px;
+  text-align: center;
+}
+p.header-text {
+
+  color: #99999b;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+}
+/****************Start Card********************************/
+
+section.continar-card {
+  border: 2px solid ;
+  margin: 30px auto 0;
+}
+div.card {
+  background-color: white;
+  margin-top: 30px;
+  height: 220px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 10px 3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 7px;
+  position: relative;
+}
+h3.card-header {
+  width: 87%;
+  margin: 27px auto 15px;
+  color: #383a47;
+}
+p.card-text {
+  width: 87%;
+  margin: auto;
+  color: #383a47;
+  color: #99999b;
+  font-size: 12.7px;
+}
+img.card-img {
+  margin-top: 38px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 30px;
+}
+/*********************Card Border Top**********************************/
+div.card-1 {
+  border-top: 4.5px solid #49cfd0;
+}
+div.card-2 {
+  border-top: 4.5px solid #db5b5f;
+}
+div.card-3 {
+  border-top: 4.5px solid #f4ae56;
+}
+div.card-4 {
+  border-top: 4.5px solid #5b9adf;
+  margin-bottom: 60px;
+}
+/*********************Start media 768**********************************/
+
+@media screen and (min-width: 768px) {
+  section.continar-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  div.card-responsive {
+    width: calc(90% / 3);
+  }
+  p.header-text {
+    font-size: 14px;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.card-responsive{
+    margin-bottom: 70px;
+}
+}
+/************************Start media 1024*******************************/
+@media screen and (min-width: 1024px) {
+  p.header-text {
+    width: 51%;
+  }
+  div.card {
+    background-color: white;
+    margin-top: 30px;
+    height: 235px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 10px 3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 7px;
+    position: relative;
+  }
+}
